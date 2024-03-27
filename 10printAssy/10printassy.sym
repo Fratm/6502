@@ -1,0 +1,4 @@
+.label mainProg=$810 {
+  .label loop=$810
+}
+.label chars=$821
