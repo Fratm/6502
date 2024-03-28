@@ -1,0 +1,12 @@
+.label doneloop=$823
+.label loop2=$831
+.label scrollleft=$82c
+.label message=$85f
+.label done=$821
+.label bufferx=$963
+.label buffery=$964
+.label delay=$848
+.label outerLoop=$850
+.label print_loop=$812
+.label buffera=$965
+.label innerLoop=$852
