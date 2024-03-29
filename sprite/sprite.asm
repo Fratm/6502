@@ -5,7 +5,6 @@
 // constants 
 .const VICII = $D000
 .const SPRITEBANK = $0340
-.var SPEED = 25
 
 
 // The basic header stuff.
@@ -17,6 +16,8 @@
     .byte 0, 0
 
 * = $0810
+// set speed
+
 // Enable Sprite #2
     lda #$0004
     ldx #$0015
@@ -49,12 +50,14 @@ moveloop:
     cmp #$00C8
     bne moveloop
 
+
+// You can change the speed by poking a value into $002A (42 decimal)
 delay:
     stx bufferx
     sty buffery
-    ldx SPEED          // Set X to a high value for the outer loop
+    ldx $002A          // Set X to a high value for the outer loop
 outerLoop:
-    ldy SPEED          // Set Y to a high value for the inner loop
+    ldy $002A          // Set Y to a high value for the inner loop
 innerLoop:
     dey               // Decrement Y
     bne innerLoop     // Continue the inner loop until Y is 0
@@ -78,7 +81,7 @@ sprite:
     .byte 0,127,0,1,255,192,3,255,224,3,231,224
     .byte 7,217,240,7,223,240,7,217,240,3,231,224
     .byte 3,255,224,3,255,224,2,255,160,1,127,64
-    .byte 1,62,64,156,128,0,156,128,0,73,0,0,73,0
+    .byte 1,62,64,0,156,128,0,156,128,0,73,0,0,73,0
     .byte 0,62,0,0,62,0,0,62,0,0,28,0
 
 
