@@ -1,0 +1,10 @@
+.label moveloop=$82e
+.label counter=$85f
+.label bufferx=$85c
+.label buffery=$85d
+.label delay=$845
+.label outerLoop=$84d
+.label buffera=$85e
+.label sprite=$860
+.label spriteload=$81e
+.label innerLoop=$84f
