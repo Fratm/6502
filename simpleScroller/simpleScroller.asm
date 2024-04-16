@@ -23,6 +23,7 @@
 
 print_loop:
     lda message, x // Load each character of the message
+    cmp #$00
     beq done       // If it's the end of the message (0), we're done
     // Calculate the position and store the character
     sta FARRIGHT
@@ -31,13 +32,17 @@ print_loop:
     jmp print_loop
 
 done: 
+    ldx $d020
+    inx
+    stx $d020
     ldx #$00
 doneloop:    // Scrolls all the text off the screen
     jsr scrollleft
     inx
     cpx #$28   // need to do it 40 times to get everything.
     bne doneloop
-    rts // Return from subroutine
+    nop
+
 
 // Scroll everything 1 byte to the left
 scrollleft:  stx bufferx  // Preserve the x reg so we can use it in this loop
@@ -69,8 +74,8 @@ innerLoop:
     rts               // Return from subroutine
 
 message:
-    .text "hello world!  this is a simple scroller written by fratm!  ya this is awesome!  woohoo! visit my web site at https://www.fratm.com or see me at youtube.com/fratm  - this took me way to long to write.  40 years ago this would have taken me 5 minutes hahahaha. "
-    .byte 0 // Null terminator
+    .text "hello world!  this is a simple scroller written by fratm!  ya this is awesome!   "
+    .byte 0,0,0 // Null terminator
 
 // buffer's x y and a -- Probably not needed, but I always felt it was good to protect your registers.
 
