@@ -7,8 +7,6 @@
     .const FARRIGHT = $0427
     .const HOME = $0400
     .const HOME2 = $0401
-    .const JIFFLOW = $A2
-
 
 * = $0801
     .word $0810
