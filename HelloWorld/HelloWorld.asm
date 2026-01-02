@@ -35,5 +35,5 @@ done:
 
 // Define the message to be displayed
 message:
-    .text "hello world!"
+    .text "hello pooper!"
     .byte 0 // Null terminator

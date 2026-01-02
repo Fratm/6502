@@ -1,7 +1,4 @@
 // A simple scroller  -- Written by Fratm and yes, I know it sucks. 
-// The delay dunction was written mostly by chatGPT, because I kept 
-// fucking it up.  But it didnt' get it right either, so I fixed it. hahahaha
-// posting this to pastebin, 100% public domain.  See my video at youtube.com/fratm
 
 // Constance
     .const FARRIGHT = $0427
@@ -16,7 +13,6 @@
     .byte 0, 0
 
 * = $0810
-
     ldx #0 // Initialize X register to index the message characters
 
 print_loop:
@@ -30,9 +26,9 @@ print_loop:
     jmp print_loop
 
 done: 
-    ldx $d020
-    inx
-    stx $d020
+    //ldx $d020
+    //inx
+    //stx $d020
     ldx #$00
 doneloop:    // Scrolls all the text off the screen
     jsr scrollleft
@@ -40,7 +36,6 @@ doneloop:    // Scrolls all the text off the screen
     cpx #$28   // need to do it 40 times to get everything.
     bne doneloop
     nop
-
 
 // Scroll everything 1 byte to the left
 scrollleft:  stx bufferx  // Preserve the x reg so we can use it in this loop
@@ -55,7 +50,7 @@ loop2:      lda HOME2, x  // lets copy everyting over one byte
             sty FARRIGHT
             jsr delay
             rts
-// This delay routine was written by chatGPT4
+
 delay:
     stx bufferx
     sty buffery
@@ -72,7 +67,7 @@ innerLoop:
     rts               // Return from subroutine
 
 message:
-    .text "hello world!  this is a simple scroller written by fratm!  ya this is awesome!   "
+    .text "hello world!  this is a simple scroller written by fratm!  ya this is awesome! "
     .byte 0,0,0 // Null terminator
 
 // buffer's x y and a -- Probably not needed, but I always felt it was good to protect your registers.
