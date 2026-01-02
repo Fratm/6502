@@ -1,16 +1,10 @@
 .const SCREEN = $0400
 .const ROWS   = 25
 .const COLS   = 40
-wipeCount: .byte 40
+wipeCount: .byte 
 
-* = $0801
-    .word $0810
-    .word $0801
-    .byte $9E
-    .text "2064"
-    .byte 0, 0
-
-* = $0810
+// sys49152  will wipe the screen and home the cursor.
+* = $C000
 
 WipeLeft:
     ldx #40              // do 40 shifts

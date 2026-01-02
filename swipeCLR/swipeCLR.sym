@@ -1,8 +1,8 @@
-.label ShiftScreenLeft=$825
-.label RowLoop=$827
-.label ColLoop=$833
-.label WipeLeft=$810
+.label ShiftScreenLeft=$c015
+.label RowLoop=$c017
+.label ColLoop=$c023
+.label WipeLeft=$c000
 .label wipeCount=$2000
-.label RowLo=$84c
-.label RowHi=$865
-.label WipeLoop=$812
+.label RowLo=$c03c
+.label RowHi=$c055
+.label WipeLoop=$c002
