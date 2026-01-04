@@ -17,6 +17,14 @@
 // Start 
 * = $0810
 
+// Check if poke for speed has been set, if not then we will set it to a default value, since zero is too slow.
+lda $2A
+bne start     
+lda #$37      
+sta $2A        
+
+
+start:
 // Enable Sprite #2
     lda #$0004
     ldx #$0015
