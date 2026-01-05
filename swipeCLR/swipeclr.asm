@@ -1,22 +1,41 @@
 .const SCREEN = $0400
 .const ROWS   = 25
 .const COLS   = 40
-wipeCount: .byte 
+
+* = $0801
+BasicUpstart2(WipeLeft)   // small BASIC stub at $0801
 
 // sys49152  will wipe the screen and home the cursor.
 * = $C000
 
+
+
 WipeLeft:
+    // preserve zp ptr used by basic/kernal
+    lda $fb
+    pha
+    lda $fc
+    pha
+
     ldx #40              // do 40 shifts
 
 WipeLoop:
+    sei
     jsr ShiftScreenLeft 
+    cli
     dec wipeCount
     bne WipeLoop
     ldx #40          // Reset the wipeCount so we can run it again
     stx wipeCount
     lda #$13        // Lets home the cursor
     jsr $FFD2
+
+    // restore zp ptr
+    pla
+    sta $fc
+    pla
+    sta $fb
+
     rts             // DONE!
 
 // Shift left by 1, fill column 39 with space
@@ -51,6 +70,12 @@ ColLoop:
     bne RowLoop
 
     rts
+
+wipeCount: .byte 40
+tmpfb: .byte 00
+tmpfc: .byte 00
+
+
 
 // ------------------------------------------------------------------
 // Row address tables for SCREEN + row*40

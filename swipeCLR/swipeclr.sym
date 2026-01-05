@@ -1,0 +1,10 @@
+.label tmpfc=$c04c
+.label ShiftScreenLeft=$c023
+.label RowLoop=$c025
+.label ColLoop=$c031
+.label tmpfb=$c04b
+.label WipeLeft=$c000
+.label wipeCount=$c04a
+.label RowLo=$c04d
+.label RowHi=$c066
+.label WipeLoop=$c008
