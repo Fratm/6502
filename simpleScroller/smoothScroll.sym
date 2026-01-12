@@ -1,0 +1,14 @@
+.label oldIrqHi=$8f6
+.label rasterIrq=$85f
+.label oldIrqLo=$8f5
+.label main=$85c
+.label fineScroll=$8f1
+.label scrollleft_char_row0=$8c6
+.label msgIndex=$8f2
+.label speedCnt=$8f3
+.label phase=$8f4
+.label start=$80e
+.label message=$8f7
+.label doBottom=$875
+.label putNextChar_row0=$8d9
+.label doTop=$88a
