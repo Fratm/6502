@@ -1,0 +1,8 @@
+.label charValue=$c0b9
+.label nextLine=$806
+.label savedPort=$c0ba
+.label start=$c000
+.label srcHi=$c0b8
+.label buildSpriteFromChar=$c079
+.label srcLo=$c0b7
+.label asciiToScreenCode=$c055
