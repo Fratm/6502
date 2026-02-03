@@ -1,0 +1,3 @@
+.label ExitProgram=$c054
+.label loop=$c03b
+.label int=$c03e

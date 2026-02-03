@@ -1,13 +1,13 @@
 // Basic upstart sequence
 // border color #$d020
-* = $0801
-    .word $0810
-    .word $0801
-    .byte $9E
-    .text "2064"
-    .byte 0, 0
+//* = $0801
+//    .word $0810
+//    .word $0801
+//    .byte $9E
+//    .text "2064"
+//    .byte 0, 0
 
-* = $0810
+* = $0400
 loop:
     inc $d020
     jmp loop

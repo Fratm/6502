@@ -5,14 +5,11 @@
     .const HOME = $0400
     .const HOME2 = $0401
 
-* = $0801
-    .word $0810
-    .word $0801
-    .byte $9E
-    .text "2064"
-    .byte 0, 0
+BasicUpstart2(main)
 
-* = $0810
+
+
+main:
     ldx #0 // Initialize X register to index the message characters
 
 print_loop:
@@ -67,7 +64,9 @@ innerLoop:
     rts               // Return from subroutine
 
 message:
-    .text "hello world!  this is a simple scroller written by fratm!  ya this is awesome! "
+    .text "so, i want to write more 6510 code, but i have no fucking clue what to write.."
+    .text " should i start re-writting echo term?  that was my favorite project back in the day."
+    .text "i dunno, writing scrollers is boring.. i want to do some fun stuff "
     .byte 0,0,0 // Null terminator
 
 // buffer's x y and a -- Probably not needed, but I always felt it was good to protect your registers.

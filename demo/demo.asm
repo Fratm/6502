@@ -132,7 +132,9 @@ doTop:
 
     // ---- ALWAYS RUN RESIDENT TASKS ----
     jsr scroller_tick
-
+    sta $0500
+    sty $0501
+    stx $0502
     // ---- RUN CURRENT PART (if any) ----
     jsr callPartTick
 
