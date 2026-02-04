@@ -1,6 +1,4 @@
-  .---------------------------------.
   <h3>LEARNING RESOURCES</h3>
-  `---------------------------------'
 
 <ol>
   <li>C64 - Assembler Programming for Everyone  -  https://rogerboesch.github.io/2025/01/11/c64-assembler.html </li>
@@ -15,50 +13,43 @@
   <li>Assembly In One Step - Leo Scanlon  - https://dwheeler.com/6502/oneelkruns/asm1step.html </li>
   <li>Introduction to Programming C-64 Demos - Puterman - https://www.antimon.org/code/Linus/demo_prog.html </li>
 </ol>
-  .---------------------------------.
+
   <h3>CODING TOOLS</h3>
-  `---------------------------------'
 
 <ol>
   <li>Kick Assembler		https://www.theweb.dk/KickAssembler/Main.html#frontpage </li>
   <li>vscodium		https://vscodium.com/ </li>
   <li>vice (c64 emulator)	https://vice-emu.sourceforge.io/    (I use this for testing, and also test on real hardware) </li?>
 </ol>
-  .---------------------------------.<br>
-  | YOUTUBE CHANNELS FOR LEARNING   |------------------------------------<br>
-  `---------------------------------'<br>
 
-  Milasoft (C64 and PET Software) - https://www.youtube.com/@MilasoftSoftware
-  Commodore Tutorials	- https://www.youtube.com/@board-b-tutorials
+<h3>YOUTUBE CHANNELS FOR LEARNING</h3>
+<ol>
+  <li>Milasoft (C64 and PET Software) - https://www.youtube.com/@MilasoftSoftware </li>
+  <li>Commodore Tutorials	- https://www.youtube.com/@board-b-tutorials </li>
+</ol>
 
-  .---------------------------------.<br>
-  | NOTES                           |------------------------------------<br>
-  `---------------------------------'<br>
-
-  Here are my opinions for those starting out.
-<br>
-  * Go slow, programming on old 8 bit machines is different than modern programming.  But in the long run once you get good at it
+<h3> MY NOTES </h3>
+<ol>
+  <li>Go slow, programming on old 8 bit machines is different than modern programming.  But in the long run once you get good at it
 	  you will be an overall better programmer.  These old machines teach you how computers work, and also teach you great memory 
-	  management techniques. 
-	* Use what every assembler works for you, I chose Kick with VSCodium because they work great in Linux, they are cross platform
-	  and will work great in Windows and MacOS.  But there are a ton of other solutions to do this, choose one that works for you.
-	* Vibe programming (AKA LLM/AI coding), is OKAY for trouble shooting, do not use AI to learn to program, it is horrible at it and
+	  management techniques. </li>
+	<li>Use what every assembler works for you, I chose Kick with VSCodium because they work great in Linux, they are cross platform
+	  and will work great in Windows and MacOS.  But there are a ton of other solutions to do this, choose one that works for you. </li>
+	<li>Vibe programming (AKA LLM/AI coding), is OKAY for trouble shooting, do not use AI to learn to program, it is horrible at it and
 	  will take you down rabbit holes that are hard to dig out of.  I do not not recommend using it to learn to code, but if you are
 	  having issues with a routine that doesn't work, AI can help you trouble shoot it, but still take it with a grain of salt.  I have
-	  tried doing this and it was way more frustrating and time consoming than reading a book or watching a youtube tutorial.
-	* HAVE FUN.. this should be at the top of the list, this is meant to be fun.  You are not going to write amazing billion dollar apps
-	  on the Commodore 64, just do it for the fun of it.
-	* Do you need/want real hardware?  If yes, then I highly recommend the repop C64 called the Commodere 64 Ultimate from commodore.net
+	  tried doing this and it was way more frustrating and time consoming than reading a book or watching a youtube tutorial. </li>
+	<li>HAVE FUN.. this should be at the top of the list, this is meant to be fun.  You are not going to write amazing billion dollar apps
+	  on the Commodore 64, just do it for the fun of it.</li>
+	<li> Do you need/want real hardware?  If yes, then I highly recommend the repop C64 called the Commodere 64 Ultimate from commodore.net
 	  It is as close to real hardware you will can get in todays modern market.  There is also the option of buying used 40 year old hardware
 	  from places like ebay.  You can do that too, but I found having brand new hardware just feels good.  There are tools built into the new
-	  commodore 64u that are just super nice to use.  Mainly the web UI to upload and run programs, it makes testing on real hardware super easy.
-
-
-  .---------------------------------.<br>
-  | CONTACT INFORMATION             |------------------------------------<br>
-  `---------------------------------'<br>
-
+	  commodore 64u that are just super nice to use.  Mainly the web UI to upload and run programs, it makes testing on real hardware super easy. </li>
+</ol>
+<H3>CONTACT INFORMATION</H3>
+<PRE>
   Author:  Fratm
   Email : fratm@fratm.com
   URL : https://www.fratm.com
+</PRE>
 
