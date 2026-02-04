@@ -1,6 +1,6 @@
-  .---------------------------------.<br>
+  .---------------------------------.
   <h3>LEARNING RESOURCES</h3>
-  `---------------------------------'<br>
+  `---------------------------------'
 
 <ol>
   <li>C64 - Assembler Programming for Everyone  -  https://rogerboesch.github.io/2025/01/11/c64-assembler.html </li>
@@ -15,14 +15,15 @@
   <li>Assembly In One Step - Leo Scanlon  - https://dwheeler.com/6502/oneelkruns/asm1step.html </li>
   <li>Introduction to Programming C-64 Demos - Puterman - https://www.antimon.org/code/Linus/demo_prog.html </li>
 </ol>
-  .---------------------------------.<br>
-  | CODING TOOLS                    |------------------------------------<br>
-  `---------------------------------'<br>
+  .---------------------------------.
+  <h3>CODING TOOLS</h3>
+  `---------------------------------'
 
-  Kick Assembler		https://www.theweb.dk/KickAssembler/Main.html#frontpage
-  vscodium		https://vscodium.com/
-  vice (c64 emulator)	https://vice-emu.sourceforge.io/    (I use this for testing, and also test on real hardware)
-
+<ol>
+  <li>Kick Assembler		https://www.theweb.dk/KickAssembler/Main.html#frontpage </li>
+  <li>vscodium		https://vscodium.com/ </li>
+  <li>vice (c64 emulator)	https://vice-emu.sourceforge.io/    (I use this for testing, and also test on real hardware) </li?>
+</ol>
   .---------------------------------.<br>
   | YOUTUBE CHANNELS FOR LEARNING   |------------------------------------<br>
   `---------------------------------'<br>
