@@ -1,6 +1,6 @@
-  .---------------------------------.
-  | LEARNING RESOURCES              |------------------------------------
-  `---------------------------------'
+  .---------------------------------.<br>
+  | LEARNING RESOURCES              |------------------------------------<br>
+  `---------------------------------'<br>
 
   C64 - Assembler Programming for Everyone  -  https://rogerboesch.github.io/2025/01/11/c64-assembler.html
   Commodore 64 Architecture - Jim BUtterfield   https://www.atarimagazines.com/compute/issue32/112_1_COMMODORE_64_ARCHITECTURE.php
