@@ -1,19 +1,20 @@
   .---------------------------------.<br>
-  | LEARNING RESOURCES              |------------------------------------<br>
+  <h3>LEARNING RESOURCES</h3>
   `---------------------------------'<br>
 
-  C64 - Assembler Programming for Everyone  -  https://rogerboesch.github.io/2025/01/11/c64-assembler.html
-  Commodore 64 Architecture - Jim BUtterfield   https://www.atarimagazines.com/compute/issue32/112_1_COMMODORE_64_ARCHITECTURE.php
-  C64 ROM Memory Map - skoolkid - https://skoolkid.github.io/sk6502/c64rom/maps/all.html
-  Commodore 64 IRQ Lesson 1 - https://www.youtube.com/watch?v=XgV_f-_Ypec
-  Commodore 64 IRQ Lesson 2 -  https://www.youtube.com/watch?v=MVsJ7_Hrwi8
-  6502 Source Code Repo  - http://www.6502.org/source/
-  Piddewitt C64 Game Source Code - https://github.com/Piddewitt/C64-Game-Source-Code/
-  Commodore 64 Assembly Programming Course (Play list to make a game) - https://www.youtube.com/playlist?list=PLU1o_YShTPgoA7_nZ0PutqaPDsitA5RvV
-  C64 Assembly Coding Guide - Spiroharvey  - https://github.com/spiroharvey/c64/blob/main/asm/C64%20Assembly%20Coding%20Guide.md
-  Assembly In One Step - Leo Scanlon  - https://dwheeler.com/6502/oneelkruns/asm1step.html
-  Introduction to Programming C-64 Demos - Puterman - https://www.antimon.org/code/Linus/demo_prog.html
-
+<ol>
+  <li>C64 - Assembler Programming for Everyone  -  https://rogerboesch.github.io/2025/01/11/c64-assembler.html </li>
+  <li>Commodore 64 Architecture - Jim BUtterfield   https://www.atarimagazines.com/compute/issue32/112_1_COMMODORE_64_ARCHITECTURE.php </li>
+  <li>C64 ROM Memory Map - skoolkid - https://skoolkid.github.io/sk6502/c64rom/maps/all.html </li>
+  <li>Commodore 64 IRQ Lesson 1 - https://www.youtube.com/watch?v=XgV_f-_Ypec </li>
+  <li>Commodore 64 IRQ Lesson 2 -  https://www.youtube.com/watch?v=MVsJ7_Hrwi8 </li>
+  <li>6502 Source Code Repo  - http://www.6502.org/source/ </li>
+  <li>Piddewitt C64 Game Source Code - https://github.com/Piddewitt/C64-Game-Source-Code/ </li>
+  <li>Commodore 64 Assembly Programming Course (Play list to make a game) - https://www.youtube.com/playlist?list=PLU1o_YShTPgoA7_nZ0PutqaPDsitA5RvV </li>
+  <li>C64 Assembly Coding Guide - Spiroharvey  - https://github.com/spiroharvey/c64/blob/main/asm/C64%20Assembly%20Coding%20Guide.md </li>
+  <li>Assembly In One Step - Leo Scanlon  - https://dwheeler.com/6502/oneelkruns/asm1step.html </li>
+  <li>Introduction to Programming C-64 Demos - Puterman - https://www.antimon.org/code/Linus/demo_prog.html </li>
+</ol>
   .---------------------------------.<br>
   | CODING TOOLS                    |------------------------------------<br>
   `---------------------------------'<br>
@@ -35,7 +36,7 @@
 
   Here are my opinions for those starting out.
 <br>
-  	* Go slow, programming on old 8 bit machines is different than modern programming.  But in the long run once you get good at it
+  * Go slow, programming on old 8 bit machines is different than modern programming.  But in the long run once you get good at it
 	  you will be an overall better programmer.  These old machines teach you how computers work, and also teach you great memory 
 	  management techniques. 
 	* Use what every assembler works for you, I chose Kick with VSCodium because they work great in Linux, they are cross platform
