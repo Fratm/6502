@@ -2,7 +2,6 @@
   | LEARNING RESOURCES              |------------------------------------
   `---------------------------------'
 
-
   C64 - Assembler Programming for Everyone  -  https://rogerboesch.github.io/2025/01/11/c64-assembler.html
   Commodore 64 Architecture - Jim BUtterfield   https://www.atarimagazines.com/compute/issue32/112_1_COMMODORE_64_ARCHITECTURE.php
   C64 ROM Memory Map - skoolkid - https://skoolkid.github.io/sk6502/c64rom/maps/all.html
@@ -14,7 +13,6 @@
   C64 Assembly Coding Guide - Spiroharvey  - https://github.com/spiroharvey/c64/blob/main/asm/C64%20Assembly%20Coding%20Guide.md
   Assembly In One Step - Leo Scanlon  - https://dwheeler.com/6502/oneelkruns/asm1step.html
   Introduction to Programming C-64 Demos - Puterman - https://www.antimon.org/code/Linus/demo_prog.html
-
 
   .---------------------------------.
   | CODING TOOLS                    |------------------------------------
@@ -34,7 +32,6 @@
   .---------------------------------.
   | NOTES                           |------------------------------------
   `---------------------------------'
-
 
   Here are my opinions for those starting out.
 
