@@ -50,6 +50,7 @@
 <PRE>
   Author:  Fratm
   Email : fratm@fratm.com
+  Mastodon :  @fratm@mastodon.social
   URL : https://www.fratm.com
 </PRE>
 
