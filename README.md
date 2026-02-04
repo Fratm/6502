@@ -54,3 +54,4 @@
   URL : https://www.fratm.com
 </PRE>
 
+<pre><center>This document lives at https://github.com/Fratm/6502/README.md</center></pre>
