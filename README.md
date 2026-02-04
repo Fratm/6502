@@ -14,27 +14,27 @@
   Assembly In One Step - Leo Scanlon  - https://dwheeler.com/6502/oneelkruns/asm1step.html
   Introduction to Programming C-64 Demos - Puterman - https://www.antimon.org/code/Linus/demo_prog.html
 
-  .---------------------------------.
-  | CODING TOOLS                    |------------------------------------
-  `---------------------------------'
+  .---------------------------------.<br>
+  | CODING TOOLS                    |------------------------------------<br>
+  `---------------------------------'<br>
 
   Kick Assembler		https://www.theweb.dk/KickAssembler/Main.html#frontpage
   vscodium		https://vscodium.com/
   vice (c64 emulator)	https://vice-emu.sourceforge.io/    (I use this for testing, and also test on real hardware)
 
-  .---------------------------------.
-  | YOUTUBE CHANNELS FOR LEARNING   |------------------------------------
-  `---------------------------------'
+  .---------------------------------.<br>
+  | YOUTUBE CHANNELS FOR LEARNING   |------------------------------------<br>
+  `---------------------------------'<br>
 
   Milasoft (C64 and PET Software) - https://www.youtube.com/@MilasoftSoftware
   Commodore Tutorials	- https://www.youtube.com/@board-b-tutorials
 
-  .---------------------------------.
-  | NOTES                           |------------------------------------
-  `---------------------------------'
+  .---------------------------------.<br>
+  | NOTES                           |------------------------------------<br>
+  `---------------------------------'<br>
 
   Here are my opinions for those starting out.
-
+<br>
   	* Go slow, programming on old 8 bit machines is different than modern programming.  But in the long run once you get good at it
 	  you will be an overall better programmer.  These old machines teach you how computers work, and also teach you great memory 
 	  management techniques. 
@@ -52,9 +52,9 @@
 	  commodore 64u that are just super nice to use.  Mainly the web UI to upload and run programs, it makes testing on real hardware super easy.
 
 
-  .---------------------------------.
-  | CONTACT INFORMATION             |------------------------------------
-  `---------------------------------'
+  .---------------------------------.<br>
+  | CONTACT INFORMATION             |------------------------------------<br>
+  `---------------------------------'<br>
 
   Author:  Fratm
   Email : fratm@fratm.com
